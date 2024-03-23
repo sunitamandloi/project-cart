@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-wrapper  button{
+ background-color: rgb(178, 31, 105);
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  box-shadow: #333 0px 1px 5px;
+}
+.img-wrapper img{
+  width: 100px;
+  margin-top: -10px;
+}
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  background-color: blanchedalmond;
+   
+}
+.item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 14px;
+  height: 70px;
+
+}
+.add-to-cart img{
+   width: 80px;
+   position: absolute;
+   right: 1%;
+   top: 1%;
+}
+.cart-count{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  background-color: rgb(158, 16, 94);
+  padding: 7px;
+  width: 21px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+ button.romeve-cart-btn{
+  background-color: rebeccapurple;
+  margin-top: 8px;
+}
+/* .container{
+  background-color: rgb(231, 188, 135);
+} */
